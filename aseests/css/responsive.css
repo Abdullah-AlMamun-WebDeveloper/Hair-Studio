@@ -1,0 +1,71 @@
+/* 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+@media screen and (max-width: 770px) {
+/* Header-Area start */
+
+    .banner-text h1 {
+        font-size: 44px;
+    }
+    .banner-btn a {
+        display: block;
+        margin: 20px auto;
+    }
+
+/* Header-Area End */
+/* Features-Area Start */
+
+    .title-text h1 {
+        font-size: 35px;
+    }
+    .fearures {
+        flex-basis: 100%;
+    }
+    .features-img {
+        flex-basis: 100%;
+    }
+    .features-img img {
+        width: 100%;
+    }
+    /* .fearures h1 {
+        font-size: 30px;
+    } */
+
+    /* Features-Area end */
+    /* Service-Area start */
+
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service-desc p {
+        font-size: 12px;
+    }
+    .service-desc hr {
+        margin: 5px auto;
+    }
+    .single-service:hover .service-desc {
+        bottom: 30% !important;
+    }
+
+/* Service-Area end */
+/* Testimonial-Area Start */
+
+    .testimonial-col {
+        flex-basis: 100%;
+    }
+
+/* Testimonial-Area end */
+/* Footer-Area Start */
+
+    .footer-left, .footer-right {
+        flex-basis: 100%;
+        font-size: 13px;
+    }
+    .footer-left .fa, .footer-right .fa {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .footer-img {
+        top: 25%;
+    }
+}
